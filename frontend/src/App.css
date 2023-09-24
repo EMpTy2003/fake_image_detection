@@ -1,0 +1,40 @@
+#root {
+  width: 90rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+button{
+  margin: 2rem 0rem;
+}
+
+.output{
+  display: grid;
+  height: 40vh;
+  grid-template-columns: .5fr 1fr 1fr;
+  padding: 2rem 0;
+  gap: 5vw;
+}
+
+.original{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: .5rem;
+}
+
+.ela_result{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: .5rem;
+}
+
+.output h4{
+  bottom: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
