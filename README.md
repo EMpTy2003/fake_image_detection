@@ -1,5 +1,4 @@
 # fake_image_detection
-# fake_image_detection
 
 This fake_image_detection provides an API for uploading an image file, performing image classification, and serving the results. The server also serves static files for a React.js frontend.
 
